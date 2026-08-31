@@ -1,100 +1,69 @@
-<!DOCTYPE html>
-<html lang="ta">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="MSP E-SEVAI MAIYYAM - Government and private online services, exam applications, print, xerox and job updates in Thiruvarur.">
-<title>MSP E-SEVAI MAIYYAM | Thiruvarur</title>
+<!doctype html>
+<html lang="ta"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="MSP E-SEVAI MAIYYAM - திருவாரூர்">
+<title>MSP E-SEVAI MAIYYAM | திருவாரூர்</title>
 <style>
-*{box-sizing:border-box} body{margin:0;font-family:Arial,"Noto Sans Tamil",sans-serif;background:#f6f7fb;color:#172033;line-height:1.55}
-a{text-decoration:none;color:inherit}.container{width:min(1100px,92%);margin:auto}
-header{background:linear-gradient(135deg,#8b0000,#d71920);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #0002}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}.logo{font-weight:900;font-size:20px}.logo small{display:block;font-size:11px;letter-spacing:1px}
-nav a{margin-left:18px;font-weight:700;font-size:14px}.hero{background:linear-gradient(135deg,#fff8e7,#fff);padding:65px 0 55px}
-.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:30px;align-items:center}.badge{display:inline-block;background:#ffd21c;color:#111;padding:7px 14px;border-radius:30px;font-weight:800}
-h1{font-size:clamp(34px,6vw,62px);margin:15px 0 5px;color:#9d1015;line-height:1.05}.hero h2{margin:0 0 15px;font-size:24px}.hero p{font-size:18px}
-.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:800;margin:6px 5px 6px 0}.primary{background:#168b3b;color:#fff}.secondary{background:#9d1015;color:#fff}.card{background:#fff;border-radius:18px;padding:25px;box-shadow:0 8px 30px #17203312}
-.hero-card{text-align:center;border:2px solid #ffd21c}.hero-card .big{font-size:52px}
-section{padding:52px 0}.title{text-align:center;margin-bottom:28px}.title h2{font-size:32px;margin:0;color:#8d1015}.title p{margin:5px 0;color:#667085}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service h3{margin:8px 0;color:#8d1015}.icon{font-size:36px}
-.jobs{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.job{border-left:5px solid #d71920}.job .tag{display:inline-block;background:#fff0c2;padding:4px 9px;border-radius:20px;font-size:12px;font-weight:800}
-.job h3{margin:8px 0}.job ul{padding-left:20px}
-.notice{background:#fff3cd;border:1px solid #ffe08a;border-radius:12px;padding:14px;margin-top:18px;font-size:14px}
-.contact{background:#101a33;color:#fff}.contact .title h2{color:#ffd21c}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact-card{background:#182440;border-radius:15px;padding:20px}
-footer{background:#080e1d;color:#b9c1d1;text-align:center;padding:25px;font-size:13px}
-.float{position:fixed;right:18px;bottom:18px;background:#16a34a;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 5px 18px #0004;z-index:20}
-@media(max-width:800px){nav{display:none}.hero-grid,.grid,.jobs,.contact-grid{grid-template-columns:1fr}.hero{padding:45px 0}.hero-card{order:-1}section{padding:38px 0}}
-</style>
-</head>
-<body>
-<header>
-  <div class="container nav">
-    <a class="logo" href="#home">MSP E-SEVAI MAIYYAM<small>THIRUVARUR</small></a>
-    <nav><a href="#home">முகப்பு</a><a href="#services">சேவைகள்</a><a href="#jobs">வேலைவாய்ப்பு</a><a href="#contact">தொடர்பு</a></nav>
-  </div>
-</header>
+:root{--b:#0b3d91;--b2:#1769d1;--g:#ffb300;--w:#16a34a;--t:#172033;--m:#64748b;--bg:#f4f7fc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans Tamil",sans-serif;color:var(--t);background:var(--bg);line-height:1.55}
+header{position:sticky;top:0;z-index:10;background:linear-gradient(135deg,#07275f,#1769d1);color:#fff;box-shadow:0 4px 18px #0003}
+nav{max-width:1150px;margin:auto;padding:14px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:900;font-size:21px}.brand small{display:block;font-size:12px;opacity:.85}
+nav a{color:#fff;text-decoration:none;margin-left:16px;font-weight:700;font-size:14px}
+.hero{background:#fff;padding:65px 5%}.hero-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.35fr .65fr;gap:35px;align-items:center}
+.badge{display:inline-block;background:#fff3cd;color:#7a5200;border-radius:30px;padding:7px 13px;font-weight:800}
+h1{font-size:clamp(36px,6vw,62px);line-height:1.05;margin:15px 0 12px;color:var(--b)}.hero p{font-size:19px;color:var(--m)}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:800;margin:6px 5px 6px 0}.gold{background:var(--g);color:#111}.wa{background:var(--w);color:#fff}.blue{background:var(--b);color:#fff}.outline{border:2px solid var(--b);color:var(--b)}
+.hero-card{background:linear-gradient(145deg,#eaf2ff,#fff);border:1px solid #d7e4fb;padding:27px;border-radius:22px;box-shadow:0 14px 35px #0b3d9118}
+section{padding:55px 5%}.wrap{max-width:1150px;margin:auto}.title{text-align:center;margin-bottom:30px}.title h2{font-size:32px;margin:0 0 7px;color:var(--b)}.title p{color:var(--m)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #e1e8f3;border-radius:17px;padding:22px;box-shadow:0 7px 22px #1720330a}.card h3{margin:8px 0}.icon{font-size:32px}
+.notice{border-left:5px solid var(--g);background:#fff;padding:18px 20px;border-radius:12px;margin-bottom:14px;box-shadow:0 4px 15px #0001}.notice strong{color:var(--b)}.tag{display:inline-block;font-size:12px;background:#e8f0ff;color:var(--b);padding:4px 8px;border-radius:20px;margin-right:5px}
+.contact{background:#092d6b;color:#fff}.contact .title h2{color:#fff}.contact .title p{color:#dbe7fb}.contact .card a{color:var(--b)}
+footer{background:#061d42;color:#cbd7ea;text-align:center;padding:25px 5%}.float{position:fixed;right:18px;bottom:18px;background:#16a34a;color:#fff;text-decoration:none;border-radius:50px;padding:13px 17px;font-weight:900;box-shadow:0 8px 25px #0004;z-index:20}
+@media(max-width:800px){nav a{display:none}.hero-grid,.grid{grid-template-columns:1fr}.hero{padding-top:45px}section{padding:42px 5%}}
+</style></head><body>
+<header><nav><div class="brand">MSP E-SEVAI MAIYYAM<small>திருவாரூர்</small></div>
+<div><a href="#services">சேவைகள்</a><a href="#jobs">Jobs</a><a href="#exams">Exams</a><a href="#contact">தொடர்பு</a></div></nav></header>
+<a class="float" href="https://wa.me/918489245311?text=வணக்கம்%20MSP%20E-Sevai%20Maiyyam" target="_blank">💬 WhatsApp</a>
 
-<main id="home">
-<section class="hero">
-<div class="container hero-grid">
-<div>
-<span class="badge">அனைத்து ஆன்லைன் சேவைகளும்</span>
+<section class="hero"><div class="hero-grid"><div>
+<span class="badge">அனைத்து ஆன்லைன் சேவைகளும் ஒரே இடத்தில்</span>
 <h1>MSP E-SEVAI MAIYYAM</h1>
-<h2>அரசு & தனியார் ஆன்லைன் சேவைகள் ஒரே இடத்தில்!</h2>
-<p>TNPSC / அரசு தேர்வு விண்ணப்பங்கள், வேலைவாய்ப்பு விண்ணப்பங்கள், பிரிண்ட், Xerox, Spiral Binding மற்றும் பல சேவைகள்.</p>
-<a class="btn primary" href="https://wa.me/918489245311?text=வணக்கம்%20MSP%20E-Sevai%20Maiyyam%20சேவைகள்%20தேவை." target="_blank">📲 WhatsApp செய்ய</a>
-<a class="btn secondary" href="#jobs">🔔 வேலைவாய்ப்பு பார்க்க</a>
-</div>
-<div class="card hero-card"><div class="big">📮</div><h2>Latest Job Updates</h2><p>GDS • TNPSC • அரசு & தனியார் வேலைவாய்ப்பு செய்திகள்</p><strong>Instagram: LINK IN BIO</strong></div>
-</div>
-</section>
+<p>திருவாரூரில் அரசு & தனியார் ஆன்லைன் விண்ணப்பங்கள், தேர்வு விண்ணப்பங்கள், வேலைவாய்ப்பு விண்ணப்பங்கள் மற்றும் Print / Xerox சேவைகள்.</p>
+<a class="btn wa" href="https://wa.me/918489245311?text=வணக்கம்%20MSP%20E-Sevai%20Maiyyam" target="_blank">💬 WhatsApp</a>
+<a class="btn blue" href="tel:+918489245311">📞 84892 45311</a></div>
+<div class="hero-card"><h2>📍 திருவாரூர்</h2><p><b>Old Bus Stop</b></p><p>கோப்புகளை WhatsApp அல்லது Email மூலம் அனுப்பலாம்.</p>
+<a class="btn gold" href="mailto:mspesevaicenter@gmail.com">✉ Email</a></div></div></section>
 
-<section id="services">
-<div class="container">
-<div class="title"><h2>எங்கள் சேவைகள்</h2><p>உங்கள் ஆன்லைன் தேவைகளுக்கு விரைவான உதவி</p></div>
+<section id="services"><div class="wrap"><div class="title"><h2>எங்கள் சேவைகள்</h2><p>உங்களுக்கு தேவையான முக்கிய சேவைகள்</p></div>
 <div class="grid">
-<div class="card service"><div class="icon">🏛️</div><h3>அரசு சேவைகள்</h3><p>பல்வேறு அரசு ஆன்லைன் சேவைகள் மற்றும் விண்ணப்ப உதவி.</p></div>
-<div class="card service"><div class="icon">📝</div><h3>தேர்வு விண்ணப்பம்</h3><p>TNPSC மற்றும் அரசு / தனியார் தேர்வு விண்ணப்பங்கள்.</p></div>
-<div class="card service"><div class="icon">💼</div><h3>வேலைவாய்ப்பு</h3><p>அரசு மற்றும் தனியார் வேலைவாய்ப்பு விண்ணப்ப உதவி.</p></div>
-<div class="card service"><div class="icon">🖨️</div><h3>Xerox & Print</h3><p>Black & White / Colour print மற்றும் Xerox சேவை.</p></div>
-<div class="card service"><div class="icon">📚</div><h3>Spiral Binding</h3><p>ஆவணங்கள் மற்றும் project-களுக்கு Spiral Binding.</p></div>
-<div class="card service"><div class="icon">📄</div><h3>File Sharing</h3><p>WhatsApp / Email மூலம் file sharing மற்றும் document support.</p></div>
-</div>
-</div>
-</section>
+<div class="card"><div class="icon">🏛️</div><h3>அரசு ஆன்லைன் சேவைகள்</h3><p>அரசு சார்ந்த online application மற்றும் சேவை உதவிகள்.</p></div>
+<div class="card"><div class="icon">📝</div><h3>தேர்வு விண்ணப்பங்கள்</h3><p>TNPSC மற்றும் பிற அரசு தேர்வுகளுக்கான application உதவி.</p></div>
+<div class="card"><div class="icon">💼</div><h3>வேலைவாய்ப்பு</h3><p>அரசு மற்றும் தனியார் வேலைவாய்ப்பு விண்ணப்ப உதவி.</p></div>
+<div class="card"><div class="icon">🖨️</div><h3>Xerox & Print</h3><p>Printout, Xerox மற்றும் Colour Print.</p></div>
+<div class="card"><div class="icon">📚</div><h3>Spiral Binding</h3><p>Project, notes மற்றும் documents Spiral Binding.</p></div>
+<div class="card"><div class="icon">💳</div><h3>PVC Card Printing</h3><p>தேவையான PVC card printing சேவைகள்.</p></div>
+</div></div></section>
 
-<section id="jobs" style="background:#fff">
-<div class="container">
-<div class="title"><h2>வேலைவாய்ப்பு செய்திகள்</h2><p>புதிய அறிவிப்புகளுக்கு தொடர்ந்து எங்கள் Instagram பக்கத்தை Follow செய்யுங்கள்.</p></div>
-<div class="jobs">
-<div class="card job">
-<span class="tag">GOVERNMENT JOB</span><h3>📮 India Post GDS</h3>
-<ul><li>Gramin Dak Sevak (GDS)</li><li>10ஆம் வகுப்பு தேர்ச்சி – அறிவிப்பின்படி</li><li>தேர்வு / Merit / வயது உள்ளிட்டவை அதிகாரப்பூர்வ அறிவிப்பின்படி</li></ul>
-<a class="btn secondary" href="https://www.indiapostgdsonline.gov.in/" target="_blank">Official Portal ↗</a>
-</div>
-<div class="card job">
-<span class="tag">EXAM UPDATE</span><h3>📢 TNPSC / அரசு தேர்வுகள்</h3>
-<ul><li>புதிய தேர்வு அறிவிப்புகள்</li><li>Online application assistance</li><li>தேதிகள் மற்றும் தகுதிகள் அதிகாரப்பூர்வ அறிவிப்பின்படி</li></ul>
-<a class="btn secondary" href="https://www.tnpsc.gov.in/" target="_blank">TNPSC Official ↗</a>
-</div>
-</div>
-<div class="notice">⚠️ முக்கிய குறிப்பு: வேலைவாய்ப்பு எண்ணிக்கை, விண்ணப்ப தொடக்க/கடைசி தேதி, கட்டணம், வயது வரம்பு மற்றும் தகுதிகள் ஒவ்வொரு அதிகாரப்பூர்வ அறிவிப்பின்படியும் மாறலாம். விண்ணப்பிப்பதற்கு முன் அதிகாரப்பூர்வ அறிவிப்பை சரிபார்க்கவும்.</div>
-</div>
-</section>
+<section id="jobs" style="background:#eef5ff"><div class="wrap"><div class="title"><h2>📢 Latest Jobs</h2><p>புதிய வேலைவாய்ப்பு அறிவிப்புகள்</p></div>
+<div class="notice"><span class="tag">GOVERNMENT</span> <strong>India Post GDS</strong><br>GDS recruitment அறிவிப்பு வெளியாகும் போது online application உதவி பெறலாம்.<br>
+<a class="btn outline" href="https://indiapostgdsonline.gov.in/" target="_blank">Official Portal →</a></div>
+<div class="notice"><span class="tag">PRIVATE</span> <strong>Private Job Applications</strong><br>தனியார் வேலைவாய்ப்புகளுக்கு விண்ணப்பிக்க WhatsApp மூலம் details அனுப்பலாம்.<br>
+<a class="btn wa" href="https://wa.me/918489245311?text=Private%20Job%20விவரங்கள்%20வேண்டும்" target="_blank">WhatsApp →</a></div>
+</div></section>
 
-<section class="contact" id="contact">
-<div class="container">
-<div class="title"><h2>தொடர்பு கொள்ள</h2><p>Online application மற்றும் சேவைகளுக்கு WhatsApp செய்யுங்கள்.</p></div>
-<div class="contact-grid">
-<div class="contact-card"><h3>📍 முகவரி</h3><p>Old Bus Stop,<br>Thiruvarur, Tamil Nadu</p></div>
-<div class="contact-card"><h3>📞 Phone / WhatsApp</h3><p><a href="tel:+918489245311">84892 45311</a></p><a class="btn primary" href="https://wa.me/918489245311" target="_blank">WhatsApp Now</a></div>
-<div class="contact-card"><h3>✉️ Email</h3><p><a href="mailto:mspesevaicenter@gmail.com">mspesevaicenter@gmail.com</a></p></div>
-</div>
-</div>
-</section>
-</main>
+<section id="exams"><div class="wrap"><div class="title"><h2>📝 Government Exams</h2><p>தேர்வு விண்ணப்ப உதவி</p></div>
+<div class="grid">
+<div class="card"><h3>TNPSC Group 2 / 2A</h3><p>Online application மற்றும் document upload உதவி.</p><a class="btn outline" href="https://www.tnpsc.gov.in/" target="_blank">TNPSC Official →</a></div>
+<div class="card"><h3>India Post GDS</h3><p>GDS application மற்றும் related online assistance.</p><a class="btn outline" href="https://indiapostgdsonline.gov.in/" target="_blank">GDS Official →</a></div>
+<div class="card"><h3>Other Exams</h3><p>புதிய அரசு தேர்வுகள் பற்றிய தகவல்களுக்கு WhatsApp செய்யுங்கள்.</p><a class="btn wa" href="https://wa.me/918489245311?text=Latest%20Exam%20விவரங்கள்%20வேண்டும்" target="_blank">Get Updates →</a></div>
+</div></div></section>
 
-<a class="float" href="https://wa.me/918489245311" target="_blank" aria-label="WhatsApp">☘</a>
-<footer>© 2026 MSP E-SEVAI MAIYYAM • Thiruvarur • All rights reserved.</footer>
-</body>
-</html>
+<section id="contact" class="contact"><div class="wrap"><div class="title"><h2>தொடர்பு கொள்ள</h2><p>MSP E-SEVAI MAIYYAM — திருவாரூர்</p></div>
+<div class="grid">
+<div class="card"><h3>📍 முகவரி</h3><p>Old Bus Stop,<br>Thiruvarur, Tamil Nadu</p></div>
+<div class="card"><h3>📞 Mobile / WhatsApp</h3><p><a href="tel:+918489245311">84892 45311</a></p></div>
+<div class="card"><h3>✉ Email</h3><p><a href="mailto:mspesevaicenter@gmail.com">mspesevaicenter@gmail.com</a></p></div>
+</div><br><div style="text-align:center"><a class="btn gold" href="https://www.google.com/maps/search/?api=1&query=Old%20Bus%20Stop%20Thiruvarur" target="_blank">📍 Open Google Maps</a></div>
+</div></section>
+<footer>© 2026 MSP E-SEVAI MAIYYAM, Thiruvarur. All Rights Reserved.</footer>
+</body></html>
